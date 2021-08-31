@@ -4,7 +4,7 @@
 
 The module is designed to be as simple and flexable as possible, so most functions return raw values. All functions have DOCSTRINGS if you are confused on what they do, but most function are pretty self explanatory.
 
-If you are intrested in creating your own auth system instead of using the quick_auth function, look inside `shakepay_api/test.py` and `shakepay_api/authentication.py` for more information on how you should handel interaction.
+If you are intrested in creating your own auth system instead of using the quick_auth function, look inside `shakepay_api/test.py` and `shakepay_api/authentication.py` for more information on how you should handle interaction.
 
 ## Examples
 
