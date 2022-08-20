@@ -1,3 +1,25 @@
 [build-system]
-requires = ["setuptools>=42"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "ShakePy"
+version = "1.0.0-alpha"
+authors = [
+  { name="Quizque", email="13785390+quizque@users.noreply.github.com" },
+]
+maintainers  = [
+]
+description = "A Shakepay API Interface for Python"
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/quizque/ShakePy"
+"Bug Tracker" = "https://github.com/quizque/ShakePy/issues"
